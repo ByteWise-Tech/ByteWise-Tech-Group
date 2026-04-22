@@ -19,31 +19,37 @@ A continuación se detallan los miembros del equipo y sus respectivos perfiles d
 
 ---
 
-## Proyecto Integrador: Análisis de Mercado de Laptops
-Este repositorio contiene la primera evidencia de aprendizaje vinculada al proyecto integrador. El objetivo inicial es la gestión y exploración de un dataset que permita realizar análisis estadísticos y predictivos sobre el mercado tecnológico.
+## Proyecto Integrador: Análisis de Conectividad en Escuelas de Cordoba
+Este repositorio contiene la primera evidencia de aprendizaje vinculada al proyecto integrador. El objetivo inicial es la gestión y exploración de un dataset que permita realizar análisis estadísticos y predictivos sobre la conectividad de las ecuelas en la provincia.
 
 ### Dataset Seleccionado
-Para este proyecto se utiliza el dataset **"Laptop Price"**, el cual cumple con los requisitos académicos solicitados (más de 8 variables y más de 400 registros).
+Para este proyecto se utiliza el dataset **"Escuelas Starlink"**, el cual cumple con los requisitos académicos solicitados (más de 8 variables y más de 400 registros).
 
-* **Origen:** [Kaggle - Laptop Price Dataset](https://www.kaggle.com/datasets/muhammetvarl/laptop-price)
+* **Origen:** Reporte Interno
 * **Formato:** `.csv`
-* **Ubicación en el repo:** `/Datos/laptop_price.csv`
+* **Ubicación en el repo:** `/Datos/escuelas_starlink_github.csv`
 
 ### Variables de Interés
 El dataset incluye, entre otras, las siguientes variables clave para el análisis:
-1. **Company:** Marca del fabricante (Cualitativa).
-2. **Product:** Nombre del modelo (Cualitativa).
-3. **TypeName:** Tipo de laptop (Gaming, Notebook, Ultrabook, etc.) (Cualitativa).
-4. **Inches:** Tamaño de la pantalla (Cuantitativa).
-5. **ScreenResolution:** Resolución de pantalla (Cualitativa).
-6. **Cpu:** Procesador central (Cualitativa).
-7. **Ram:** Memoria RAM disponible (Cuantitativa).
-8. **Memory:** Capacidad y tipo de almacenamiento (Cualitativa/Cuantitativa).
-9. **Gpu:** Unidad de procesamiento gráfico (Cualitativa).
-10. **OpSys:** Sistema operativo (Cualitativa).
-11. **Weight:** Peso del equipo (Cuantitativa).
-12. **Price_euros:** Precio de venta en euros (Cuantitativa - Variable Objetivo).
-
+1. **cui:** Codigo Unico de Identificacion (Cualitativa).
+2. **nombre_escuela:** Nombre de la escuela (Cualitativa).
+3. **nombre_utm:** Nombre del equipo UTM instalado (Cualitativa).
+4. **modelo:** Modelo del dispositivo UTM desplegado (Cualitativa).
+5. **mac_address:** Dirección MAC del equipo (Cuantitativa).
+6. **ip_publica:** IP asignada a la escuela para salida a internet (Cualitativa).
+7. **wan_appliances:** Cantidad de dispositivos conectados al enlace WAN  (Cuantitativa).
+8. **wan_carrier:** Proveedor del servicio de conectividad (Cualitativa).
+9. **access_points:** Cantidad de puntos de acceso WiFi dentro de la escuela (Cuantitativa).
+10. **latitud / longitud:** Coordenadas geográficas de la escuela, utilizadas para georreferenciación y visualización en mapas (Cuantitativa).
+11. **periodo:** Mes al que corresponde el registro de datos. Permite analizar la evolución del tráfico en el tiempo (Cualitativa).
+12. **bw_gb:** Tráfico total mensual consumido por la escuela, expresado en gigabytes (Cuantitativa).
+13. **clientes:** Cantidad estimada de usuarios o dispositivos conectados en la red de la escuela (Cuantitativa).
+14. **bw_educacion:**  Tráfico asociado a plataformas educativas, aulas virtuales y contenido pedagógico (Cuantitativa).
+15. **bw_web:** Navegación general en internet (búsquedas, páginas informativas, etc.) (Cuantitativa).
+16. **bw_streaming:** Consumo de contenido multimedia, principalmente video (YouTube, plataformas educativas audiovisuales) (Cuantitativa).
+17. **bw_calls:** Tráfico de videollamadas y comunicaciones en tiempo real (Zoom, Meet, etc.) (Cuantitativa).
+18. **bw_socialmedia:** Uso de redes sociales (Cuantitativa).
+ 
 ---
 
 ## Estructura del Repositorio
