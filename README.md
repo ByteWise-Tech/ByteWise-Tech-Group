@@ -1,4 +1,4 @@
-# Evidencia de Aprendizaje 1 - Analista de Datos I
+# Evidencia de Aprendizaje 1 - Analista de Datos I - Estadística y Exploración de Datos I
 
 ## Información del Grupo
 * **Nombre del Grupo:** ByteWise Tech Group
