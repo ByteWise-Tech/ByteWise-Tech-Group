@@ -37,7 +37,7 @@ El dataset incluye, entre otras, las siguientes variables clave para el análisi
 4. **nombre_utm:** Nombre del equipo UTM instalado (Cualitativa).
 5. **periodo:** Mes al que corresponde el registro de datos. Permite analizar la evolución del tráfico en el tiempo (Cualitativa).
 6. **modelo:** Modelo del dispositivo UTM desplegado (Cualitativa).
-7. **mac_address:** Dirección MAC del equipo (Cuantitativa).
+7. **mac_address:** Dirección MAC del equipo (Cualitativa).
 8. **ip_publica:** IP asignada a la escuela para salida a internet (Cualitativa).
 9. **latitud / longitud:** Coordenadas geográficas de la escuela, utilizadas para georreferenciación y visualización en mapas (Cuantitativa).
 10. **direccion:** Ubicación geográfica (Cualitativa).
