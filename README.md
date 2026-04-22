@@ -32,24 +32,27 @@ Para este proyecto se utiliza el dataset **"Escuelas Starlink"**, el cual cumple
 ### Variables de Interés
 El dataset incluye, entre otras, las siguientes variables clave para el análisis:
 1. **cui:** Codigo Unico de Identificacion (Cualitativa).
-2. **nombre_escuela:** Nombre de la escuela (Cualitativa).
-3. **nombre_utm:** Nombre del equipo UTM instalado (Cualitativa).
-4. **modelo:** Modelo del dispositivo UTM desplegado (Cualitativa).
-5. **mac_address:** Dirección MAC del equipo (Cuantitativa).
-6. **ip_publica:** IP asignada a la escuela para salida a internet (Cualitativa).
-7. **wan_appliances:** Cantidad de dispositivos conectados al enlace WAN  (Cuantitativa).
-8. **wan_carrier:** Proveedor del servicio de conectividad (Cualitativa).
-9. **access_points:** Cantidad de puntos de acceso WiFi dentro de la escuela (Cuantitativa).
-10. **latitud / longitud:** Coordenadas geográficas de la escuela, utilizadas para georreferenciación y visualización en mapas (Cuantitativa).
-11. **periodo:** Mes al que corresponde el registro de datos. Permite analizar la evolución del tráfico en el tiempo (Cualitativa).
-12. **bw_gb:** Tráfico total mensual consumido por la escuela, expresado en gigabytes (Cuantitativa).
-13. **clientes:** Cantidad estimada de usuarios o dispositivos conectados en la red de la escuela (Cuantitativa).
-14. **bw_educacion:**  Tráfico asociado a plataformas educativas, aulas virtuales y contenido pedagógico (Cuantitativa).
-15. **bw_web:** Navegación general en internet (búsquedas, páginas informativas, etc.) (Cuantitativa).
-16. **bw_streaming:** Consumo de contenido multimedia, principalmente video (YouTube, plataformas educativas audiovisuales) (Cuantitativa).
-17. **bw_calls:** Tráfico de videollamadas y comunicaciones en tiempo real (Zoom, Meet, etc.) (Cuantitativa).
-18. **bw_socialmedia:** Uso de redes sociales (Cuantitativa).
- 
+2. **cue:** Codigo Unico de Establecimiento (Cualitativa).
+3. **nombre_escuela:** Nombre de la escuela (Cualitativa).
+4. **nombre_utm:** Nombre del equipo UTM instalado (Cualitativa).
+5. **periodo:** Mes al que corresponde el registro de datos. Permite analizar la evolución del tráfico en el tiempo (Cualitativa).
+6. **modelo:** Modelo del dispositivo UTM desplegado (Cualitativa).
+7. **mac_address:** Dirección MAC del equipo (Cuantitativa).
+8. **ip_publica:** IP asignada a la escuela para salida a internet (Cualitativa).
+9. **latitud / longitud:** Coordenadas geográficas de la escuela, utilizadas para georreferenciación y visualización en mapas (Cuantitativa).
+10. **direccion:** Ubicación geográfica (Cualitativa).
+11. **bw_gb:** Tráfico total mensual consumido por la escuela, expresado en gigabytes (Cuantitativa).
+12. **clientes:** Cantidad estimada de usuarios o dispositivos conectados en la red de la escuela (Cuantitativa).
+13. **wan_appliances:** Cantidad de dispositivos conectados al enlace WAN  (Cuantitativa).
+14. **wan_carrier:** Proveedor del servicio de conectividad (Cualitativa).
+15. **access_points:** Cantidad de puntos de acceso WiFi dentro de la escuela (Cuantitativa).
+16. **bw_educacion:**  Tráfico asociado a plataformas educativas, aulas virtuales y contenido pedagógico (Cuantitativa).
+17. **bw_web:** Navegación general en internet (búsquedas, páginas informativas, etc.) (Cuantitativa).
+18. **bw_streaming:** Consumo de contenido multimedia, principalmente video (YouTube, plataformas educativas audiovisuales) (Cuantitativa).
+19. **bw_calls:** Tráfico de videollamadas y comunicaciones en tiempo real (Zoom, Meet, etc.) (Cuantitativa).
+20. **bw_socialmedia:** Uso de redes sociales (Cuantitativa).
+21. **bw_updates**	Consumo en actualizaciones de sistema (Cuantitativa).
+22. **bw_otros**	Tráfico no categorizado o misceláneo (Cuantitativa).
 ---
 
 ## Estructura del Repositorio
